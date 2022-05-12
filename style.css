@@ -1,0 +1,346 @@
+@import url('https://rsms.me/inter/inter.css');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+section {
+    margin-bottom: 80px;
+}
+
+.hamburger-bar {
+    width: 25px;
+    height: 25px;
+    display: none;
+}
+
+body {
+    background-color: white;
+    margin: 0px 50px;
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+}
+
+li, a, button {
+    font-weight: 510;
+    font-size: 18px;
+    color: #050707;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    margin-bottom: 60px;
+}
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+button {
+    color: rgb(193, 110, 209);
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+}
+
+.logo {
+    cursor: pointer;
+    width: 160px;
+    height: 100px;
+    margin-right: auto;
+}
+
+.graphic-container {
+    display:flex;
+    background-image: url("graphic.svg");
+    background-repeat: no-repeat;
+    background-size: 130vw 500px;
+    background-position: left center;
+}
+
+.Big-text {
+    font-weight: bold;
+    font-size: 100px;
+}
+
+.left-graphic {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 50%;
+}
+.right-graphic {
+    display: flex;
+}
+
+.graphic-paragraph {
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.opensealink {
+    text-decoration: underline;
+}
+
+.graphic-cointainer {
+    width: 100%;
+}
+
+h3 {
+    color: rgb(205, 83, 209);
+}
+
+.imageContainer {
+    background-image: url("background.svg");
+    color: rgb(0, 0, 0);
+    width: 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+    padding-top: 100px;
+    padding-left: 50px;
+ }
+
+ .BL {
+    font-weight: bolder;
+    font-size: 36px;
+    margin-bottom: 10px;
+ }
+
+ .BL2 {
+    font-size: 26px;
+    font-weight: normal;
+ }
+ .companies, .ntfs-container {
+     display: flex;
+     margin-top: 80px;
+     margin-bottom: 80px;
+     justify-content: space-between;
+ }
+
+
+ article > h2 {
+     font-size: 34px;
+ }
+
+    .gloop {
+     color:orange;
+ }
+
+    .bid {
+    color: rgb(110, 94, 94);
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.ntfs-container >* {
+    background-color: rgb(224, 221, 221);
+    border-radius: 10px;
+}
+
+.name-value {
+    font-weight: 600;
+    font-size: 18px;
+    color: black; 
+}
+
+.bottom-article {
+    display: flex;
+}
+
+.upsell-image {
+    flex: 1;
+}
+
+.bottom-text {
+    flex: 2;
+}
+
+.bottom-text > h2 {
+    font-size: 50px;
+}
+
+.bottom-text > p {
+    color:#272c2c;
+    font-size: 25px;
+}
+.btn {
+  background-color: transparent;
+  border: 2px solid #1A1A1A;
+  border-radius: 30px;
+  color: #3B3B3B;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  width: 150px;
+  height: 60px;
+  padding: 16px 24px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer-left {
+    width: 40%;
+}
+.footer-right {
+   display: flex;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+
+.footer-item > p {
+    font-weight: bold;
+}
+
+.icons > img {
+    width: 25px;
+    height: 25px;
+}
+
+.page-end {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) { 
+
+    nav ul {
+        display: none;
+    }
+
+    .cta {
+        display: none;
+    }
+
+    .hamburger-bar {
+        display: flex;
+    }
+    .graphic-container {
+        display:flex;
+        background-image: url("graphic.svg");
+        background-repeat: no-repeat;
+        background-size: 800px 500px;
+        background-position: left center;
+    }
+    
+    .Big-text {
+        font-weight: 800;
+        font-size: 50px;
+    }
+    .graphic-paragraph {
+        font-size: 15px;
+        text-align: left;
+        max-width: 250px;
+    }
+
+    .imageContainer {
+        margin: -50px;
+        width: 100vw;
+        border-radius: 0px;
+     }
+    
+     .BL {
+        font-weight: 500;
+        font-size: 30px;
+        margin-bottom: 10px;
+     }
+    
+     .BL2 {
+        font-size: 20px;
+        font-weight: normal;
+     }
+     .nematomas {
+        display: none;
+     }
+
+     .companies {
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         grid-template-rows: 100px 100px;
+     }
+     .ntfs-container {
+        display: flex;
+        margin-top: 80px;
+        margin-bottom: 80px;
+        overflow: auto;
+        gap: 25px;
+    }
+
+    .bottom-article {
+        display: flex;
+        max-width: 100px;
+    }
+    .upsell-image {
+        flex: 1;
+        margin-left: 20px;
+    }
+    
+    .bottom-text {
+        flex: 2;
+    }
+    
+    .bottom-text > h2 {
+        font-size: 30px;
+        font-weight: 1000;
+    }
+    
+    .bottom-text > p {
+        color:#272c2c;
+        font-size: 15px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .footer-right {
+        display: grid;
+        grid-template-columns: 200px 100px;
+         grid-template-rows: 100px 100px;
+
+    }
+    .page-end {
+        margin-top: 70px;
+    }
+
+    .boom-icon img {
+        width: 155px;
+        height: 47px;
+        object-fit: cover;
+        object-position: left;
+    }
+
+    body {
+        margin-right: 0;
+    }
+    .left-graphic {
+        width: 75%;
+    }
+ }
